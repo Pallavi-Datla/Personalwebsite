@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact details</title>
+  </head>
+  <body>
+    <h1>Contact Details</h1>
+    <ol type="i">
+      <li><a href="https://github.com/Pallavi-Datla"> Github</a></li>
+      <li><a href="https://www.linkedin.com/in/pallavi-datla-3741b4215/"> linkedIn</a></li>
+      <li>pallavidatla333@gmail.com</li>
+
+    </ol>
+   <form class="" action="mailto:pallavidatla333@gmail.com" method="post" enctype="text/plain" >
+     <table>
+       <tr>
+         <td><label>Name (1-26 characters):</label></td><label>
+         <td><input type="text" name="name" required minlength="1" maxlength="26" size="20" placeholder="enter your name" required></td>
+       </tr>
+       <tr>
+         <td><label>Email (1-30 characters):</label></td>
+         <td><input type="email" name="yourEmail" value="" required minlength="1" maxlength="26" size="20" placeholder="enter your email" required><br /></td>
+       </tr>
+       <tr>
+         <td><label>Password (1-20 characters):</label></td>
+         <td><input type="password" name="yourPassword" value="" required minlength="1" maxlength="26" size="20" placeholder="enter your password" required><br /></td>
+      </tr>
+     </table>
+     <td><label>Message</label></td><br />
+     <td><textarea name="yourMessage" rows="10" cols="20"></textarea></td><br />
+     <button type="submit">Submit</button>
+
+   </form>
+   <br />
+   <label>Enter your city:</label>
+   <select name="city" id="city">
+     <option value="Delhi">Delhi</option>
+     <option value="Mumbai">Mumbai</option>
+     <option value="Banglore">Banglore</option>
+     <option value="Hyderabad">Hyderabad</option>
+   </select>
+   <br />
+
+  </form>
+  <br />
+  <fieldset>
+         <legend>What Platform's do you use?</legend>
+         <input id="loving" type="checkbox" name="personality" value="loving"> <label for="loving">Github</label>
+         <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">LinkedIn</label>
+         <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Twitter</label>
+       </fieldset>
+  </body>
+</html>
